@@ -1,0 +1,48 @@
+@media (min-width: 375px) and (max-width: 1740px){
+body{
+    text-align: center;
+    background: hsl(212, 45%, 89%);
+    
+}
+
+.main{
+    background: hsl(0, 0%, 100%);
+    width: 280px;
+    height: 430px;
+    border-radius: 30px;
+    padding-top: 15px;
+    
+}
+.qr-code{
+    width: 250px;
+    margin: auto;
+    border-radius: 20px;
+
+}
+#title{
+    color:hsl(218, 44%, 22%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    margin: 18px;
+    font-weight: bold;
+
+}
+#subtext{
+    font-family: 'Outfit', sans-serif;
+    color:hsl(220, 15%, 55%);
+    font-size: 15px;
+    margin: 10px;
+    font-weight: lighter;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 125px;
+}
+.attribution{
+    padding-top: 5px;
+}
+}
